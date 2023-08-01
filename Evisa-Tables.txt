@@ -1,0 +1,66 @@
+create table admin(
+id varchar(5) primary key,
+UserName varchar(10),
+Password varchar(10))
+select * from admin
+
+create table hr(
+id varchar(5) primary key,
+UserName varchar(10),
+Password varchar(10))
+select * from hr
+
+create table emp(
+id varchar(5) primary key,
+UserName varchar(10),
+Password varchar(10))
+select * from emp
+insert into emp values('10001','Sharma','')
+
+
+select * from EmployeeDetails
+drop table EmployeeDetails
+
+
+create table EmployeeDetails(
+id varchar(10),
+name varchar(10),
+source varchar(20),
+destination varchar(20),
+timetravel varchar(20),
+schedule varchar(20),
+feedback varchar(100),
+visarequest varchar(100),
+reporting varchar(100)
+)
+
+
+
+drop table HRDetails
+create table HRDetails(
+id varchar(20),
+name varchar(20),
+adhar varchar(12),
+address varchar(20),
+feedback varchar(100)
+)
+select * from HRDetails
+ 
+
+ drop table HRDetails
+create table HRDetails(
+id varchar(10),
+name varchar(10),
+adharcard varchar(20),
+pancard varchar(20),
+feedback varchar(100)
+)
+
+create table AdminDetails(
+id varchar(10),
+name varchar(10),
+adharcard varchar(20),
+pancard varchar(20),
+feedback varchar(100)
+)
+select * from AdminDetails
